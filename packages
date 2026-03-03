@@ -1,0 +1,23 @@
+fzf
+stow
+zoxide
+rg
+zsh
+fish
+nushell
+jq
+yq
+bat
+eza
+btop
+fd
+neovide
+kitty
+wezterm
+alacritty
+helix
+tmux
+zellij
+yazi
+
+/* vim: set commentstring=#\ %s: */

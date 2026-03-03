@@ -1,0 +1,753 @@
+clear
+exit
+$nu.default-config-dir
+$nu.config-path
+$nu.env-path
+mkdir -p .config/nushell
+mkdir .config/nushell
+touch /home/sukarmaa/.config/nushell/config.nu
+clear
+fresh /home/sukarmaa/.config/nushell/config.nu
+fresh --version
+clear
+nvim --version
+nu
+nvim --version
+clear
+nvim --version
+clear
+exit
+nu -l
+exit
+nvim --version
+clear
+nvim
+nvim --version
+echo $env.PATH
+clear
+nano ~/.config/nushell/config.nu
+exit
+echo $env.PATH
+nvim --version
+nano ~/.config/nushell/config.nu
+$env.PATH = ($env.PATH | append (~/.nix-profile/bin/ | path expand))
+let-env PATH = (<\n>    $env.PATH | append (~/.nix-profile/bin | path expand)<\n>)
+exit
+echo $env.PATH
+nvim --version
+clear
+fresh --version
+clear
+nvim
+nvim --version
+clear
+echo $env.PATH
+nu
+exit
+echo $env.PATH
+clear
+fresh --version
+clear
+config nu
+echo $env.EDITOR
+clear
+config nu
+clear
+exit
+echo $env.EDITOR
+clear
+exit
+scope aliases
+config nu
+clear
+source aliasses
+clear
+exit
+cls
+scope aliases
+alias c = clear<\n>alias v = nvim
+scope aliases
+config nu
+exit
+scope aliases
+config nu
+exit
+scope aliases
+eb
+config nu
+scope aliases
+exit
+clear
+scope aliases
+ewz
+clear
+config nu
+exit
+clear
+nvim
+c
+clear
+cls
+scope aliases
+c
+clear
+mkdir .config/nvim/lua
+touch .config/nvim/init.lua
+mkdir .config/nvim/lua/{config,plugins}
+touch .config/nvim/lua/{options,mappings,autocmd}.lua
+yazi
+clear
+zsh
+bsah
+bash
+clear
+cd ~/.config/nvim
+clear
+ls
+c
+ls
+nvim
+clear
+cp ~/.config/wezterm/flake.nix .
+ls
+clear
+ls
+cls
+c
+ls
+nix develop
+clear
+nix develop
+which nix
+clear
+bash
+config nu
+exit
+cd ~/.config/nvim
+nix --version
+clear
+echo $env.PATH
+config nu
+exit
+cd ~/.config/nvim
+clear
+nvim
+clear
+nix --version
+clear
+nix develop
+clear
+nvim
+yazi
+nvim
+clear
+nvim
+clear
+nvim ~/.config/home-manager/home.nix
+nvim
+home-manager switch
+clear
+nvim
+htop
+clear
+nvim ~/.config/home-manager/home.nix
+home
+home-manager switch
+nvim
+q
+x
+exit
+cd ~/.config/nvim
+clear
+nvim
+yazi
+nvim
+yazi
+clear
+nvim
+yazi
+nvim
+nix develope
+nix develop
+clear
+nvim
+cd ~/Downloads/KMS_and_VAPT_and_VueJS/
+ls
+clar
+clear
+ls
+clear
+ls
+clear
+tree KMS/Areas/*/Views -P "*.cshtm|*.js" --prune
+bash
+c
+tree KMS/Areas/*/Views -P "*.cshtml|*.js" --prune
+python3 --version
+clear
+python3 -m .venv
+python3 -m venv myenv
+clear
+ls
+ls -A
+ls -a
+source myenv/bin/activate
+clear
+exit
+bash
+cd ~/Downloads/KMS_and_VAPT_and_VueJS/
+bash
+./myenv/bin/activate
+yazi
+bash
+chmod +x myenv/bin/activate
+./myenv/bin/activate
+python3 --version
+clear
+pip install openpyxl
+pip3 install openpyxl
+pip --version
+clear
+exirt
+exit
+bash
+clear
+cd ~/Downloads/KMS_and_VAPT_and_VueJS/
+cp ~/.config/wezterm/flake.nix .
+clear
+ls
+nvim flake.nix
+nix develop
+rm -rf .git/
+ls
+cd ~/Downloads/KMS_and_VAPT_and_VueJS/
+nvim
+clear
+sudo pacman -S localsend
+sudo pacman -Ss localsend
+sudo pacman -Ss localsand
+yay -Ss localsend
+vd FileList.xlsx
+clear
+nvim
+nvim flake.nix
+nix develop
+nvim flake.nix
+clear
+sudo pacman -S neovide
+clear
+exirt
+clear
+yazi
+wezterm --config 'default_cursor_style="BlinkingBlock"'
+wezterm --config 'default_cursor_style="BlinkingBar"'
+clear
+sudo pacman -S kitty
+clear
+yazi
+clear
+NVIM_APPNAME=nvim_nvix nvim
+clear
+yazi
+git clone https://github.com/LazyVim/starter ~/.config/nvim_lazyvim/
+touch ~/.config/nvim_nvix/init.lua
+clar
+clear
+neovide -u ~/.config/nvim_nvix/init.lua
+neovide -- -u ~/.config/nvim_nvix/init.lua
+clear
+neovide -- -u ~/.config/nvim_lazyvim//init.lua
+clear
+NVIM_APPNAME=nvim-custom neovide
+NVIM_APPNAME=nvim_lazyvim neovide
+bob --version
+clear
+clera
+sudo pacman -S bob
+clear
+bob list
+bob --help
+bob install nightly
+bob list
+bob use nightly
+clear
+bob list
+clear
+neovim --version
+nvim --version
+clear
+exit
+exit
+nvim --version
+exit
+bash
+clear
+nvim
+clear
+bob run nightly
+clear
+neovide -- -u ~/.config/nvim_lazyvim/init.lua
+cler
+clear
+NVIM_APPNAME=nvim_lazyvim neovide --version
+NVIM_APPNAME=nvim_lazyvim neovide
+clear
+NVIM_APPNAME=nvim_lazyvim neovide
+cd ~/.config/home-manager/
+nvim
+home-manager switch
+nvim
+home-manager switch
+clear
+cls
+clear
+cd ~/.config/nvim_nvix/
+NVIM_APPNAME=nvim_nvix nvim
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+NVIM_APPNAME=nvim_nvix nvim
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+NVIM_APPNAME=nvim_nvix nvim
+yazi
+NVIM_APPNAME=nvim_nvix nvim
+clear
+NVIM_APPNAME=nvim_nvix nvim
+clear
+NVIM_APPNAME=nvim_nvix nvim
+clear
+NVIM_APPNAME=nvim_nvix nvim
+clear
+yazi
+cleart
+clear
+yazi
+git clone https://github.com/LazyVim/starter ~/.config/nvim_lazyvim/
+yazi
+clear
+nvim --version
+clear
+which nvim
+clear
+which bob
+clear
+bob list
+clear
+bob ls
+bob --version
+clear
+bob --help
+bob install ightly
+bob install nightly
+clear
+bob list
+bob use nightly
+which nvim
+clear
+btop
+htop
+bob run nightly
+clear
+cd ~/.config/nvim_lazyvim/
+cler
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+NVIM_APPNAME=nvim_lazyvim neovide
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+fg
+ps
+long_running_program
+fg
+htop
+nvim
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+NVIM_APPNAME=nvim_lazyvim neovide
+cels
+clear
+touch $XDG_CONFIG_HOME/neovide/config.toml
+touch $HOME/.config/neovide/config.toml
+touch $env.HOME/.config/neovide/config.toml
+touch ~/.config/neovide/config.toml
+clear
+mkdir touch $env.HOME/.config/neovide/
+mkdir touch~/.config/neovide/
+mkdir touch ~/.config/neovide/
+yazi
+mkdir -p ~/.config/neovide/
+mkdir ~/.config/neovide/
+yazi
+touch ~/.config/neovide/config.toml
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clar
+clear
+which bob
+bob list
+yazi
+nvim ~/.config/neovide/config.toml
+fg
+clear
+exit
+chmod +x /home/sukarmaa/.local/share/bob/nightly/bin/nvim-lazyvim
+yazi
+nvim ~/.config/neovide/config.toml
+yazi
+clear
+ls
+clear
+ls
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+chmod +x neovide.lazyvim
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+cd ~/.config/nvim_lazyvim/
+clear
+ls
+chmod +x neovide.lazyvim
+ls
+neovide.lazyvim
+./neovide.lazyvim
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+./neovide.lazyvim
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clear
+./neovide.lazyvim
+nvim
+./neovide.lazyvim
+NVIM_APPNAME=nvim_lazyvim neovide
+clear
+NVIM_APPNAME=nvim_lazyvim nvim
+NVIM_APPNAME=nvim_lazyvim neovide
+nvim ~/.config/neovide/config.toml
+yazi
+nvim ~/.config/neovide/config.toml
+./neovide.lazyvim
+NVIM_APPNAME=nvim_lazyvim neovide
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+locale
+fc-list | grep "JetBrainsMono"
+cler
+clear
+NVIM_APPNAME=nvim_lazyvim nvim
+fc-list | grep "JetBrainsMono"
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+NVIM_APPNAME=nvim_lazyvim neovide
+yazi
+clear
+NVIM_APPNAME=nvim_lazyvim neovide
+NVIM_APPNAME=nvim_lazyvim neovide -- -u ~/.local/share/bob/nightly/bin/nvim
+clear
+./neovide.lazyvim
+NVIM_APPNAME=nvim_lazyvim neovide --neovim-bin ~/.local/share/bob/nightly/bin/nvim
+NVIM_APPNAME=nvim_lazyvim neovide -- --neovim-bin ~/.local/share/bob/nightly/bin/nvim
+NVIM_APPNAME=nvim_lazyvim neovide --neovim-bin ~/.local/share/bob/nightly/bin/nvim
+bob uninstall nightly
+bob list
+yazi
+exit
+cd ~/.config/nvim_lazyvim/
+bob list
+bob install nightly
+bob run nightly
+clear
+neovide --neovim-bin ~/.local/share/bob/nightly/bin/nvim
+qclear
+clear
+bob list
+bob ls
+which bob run nightly
+clear
+neovide --neovim-bin /home/sukarmaa//.local/share/bob/nightly/bin/nvim
+neovide --neovim-bin /home/sukarmaa/.local/share/bob/nightly/bin/nvim
+clear
+NVIM_APPNAME=nvim_lazyvim nvim
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clear
+NVIM_APPNAME=nvim_lazyvim bob run nightly
+clar
+clear
+ls
+clear
+git init
+git config --global init.defaultBranch main
+git branch -m main
+git branch
+git brancs
+git brances
+clear
+git status
+clear
+git config --global user.name "Suraj"
+git config --global user.email "suraj.vishwakarma.01@yandex.com"
+git config --global --list
+git config --global credential.helper store
+git config --global --list
+git config --global core.editor "nvim --clean"
+git config --global color.ui auto
+git config --global alias.st status<\n>git config --global alias.co checkout<\n>git config --global alias.br branch<\n>git config --global alias.cm commit<\n>git config --global alias.last "log -1 HEAD"
+git config --global --edit
+clear
+git config --global --list
+ls
+git init
+clear
+git status
+git st
+git commit -am "intial commit for lazyvim"
+git commit -ma "intial commit for lazyvim"
+git st
+clear
+mv .insperation-config .credit.md
+cat .credit.md
+:w
+clear
+git st
+git add .
+git st
+clear
+touch .gitignore .token
+nvim .token
+clear
+git st
+nvim .gitignore
+git add .
+clear
+ls
+git ls
+ls
+git st
+ls -a
+git st
+git commit -m "intial commit for lazyvim"
+git remote add origin git@github.com:su-xixo/nvim.git
+git branch -M main
+git push -u origin main
+ls ~/.ssh
+ssh-keygen -t ed25519 -C "suraj.vishwakarma.01@yandex.com"
+eval "$(ssh-agent -s)"
+zsh
+clear
+htop
+cd ~/GitWorks
+mkdir ~/GitWorks
+clear
+yazi
+cd ~/GitWorks
+cd KMS_HOME_27-02-2027/
+ls
+git st
+git init
+git st
+clear
+git st
+git rm -r --cached  .
+git rm -r --cached .
+git rm -r --cached 
+git rm -r --cached packages/
+git rm --cached packages/
+tree -I ".git"
+clear
+git check-ignore -v packages/
+git ls-files --others --exclude-standard
+cls
+clear
+git ls-files --others --exclude-standard
+clear
+git ls-files --others --exclude-standard
+clear
+git ls-files --others --exclude-standard
+git ls-files --others --exclude-standard | wc
+git ls-files --others --exclude-standard
+clear
+git ls-files --others --exclude-standard
+clear
+NVIM_APPNAME=nvim_lazyvim neovide
+nvim .nvim.lua
+git config --local --list
+yazi
+nvim
+NVIM_APPNAME=nvim_lazyvim neovide
+nvim
+git config --local core.autocrlf true<\n>git config --local core.eol crlf
+touch .gitattributes
+micro .gitattributes
+nvim .gitattributes
+git add --renormalize .
+git commit -m "Force CRLF line endings"
+git add .
+git commit -m "Force CRLF line endings"
+git ls
+git st
+git last
+git ls-files --eol
+touch .netrc
+nvim .netrc
+nvim .gitignore
+git st
+git remote add origin https://github.com/svblez/KMS.git
+git config --local credential.helper manager-core
+chmod 600 .netrc
+yazi
+git config --local credential.useHttpPath true<\n>git config --local credential.helper "store --file=.git-credentials"
+touch .git-credentials
+nvim .git-credentials
+nvim .gitignore
+git st
+git push -u origin main
+ls
+yazi
+clear
+bat .nvim.lua
+clear
+cd ~/.config/nvim_lazyvim/
+NVIM_APPNAME=nvim_lazyvim neovide
+NVIM_APPNAME=nvim_lazyvim nvim
+nvim +'set ff=dos'
+clear
+NVIM_APPNAME=nvim_lazyvim nvim
+git st
+NVIM_APPNAME=nvim_lazyvim nvim
+q
+clear
+pwd
+ls
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+grep -Lr --include="*.cshtml" "suraj" .
+grep -Lr --include="*.cshtml" "suraj" . | wc
+grep -Lr --include="*.cshtml" "@section scripts" .
+grep -Lr --include="*.cshtml" "@section scripts" . | wc
+nvim $(grep -Lr --include="*.cshtml" "@section scripts" .)
+grep -Lr --include="*.cshtml" "@section scripts" . | lines | nvim $in
+grep -Lr --include="*.cshtml" "@section scripts" . | nvim $in
+NVIM_APPNAME=nvim_lazyvim nvim
+clear
+bash
+git push -u origin main
+clear
+exit
+cd ~/GitWorks/KMS_HOME_27-02-2027/
+clear
+vim
+vim --version
+vi --version
+clear
+vi
+vi --version
+yazi
+clear
+ls
+clear
+ll
+clear
+fish --version
+clear
+mkdir ~/.config/vim
+yazi
+cleat
+cleart
+clar
+clear
+vim ~/.config/vim/vimrc
+clear
+vim
+vim ~/.config/vim/vimrc
+clear
+vim ~/.config/vim/vimrc
+exit
+vim ~/.config/vim/vimrc
+yazu
+exit
+fg
+job unfreeze
+clear
+yazi
+vim ~/.config/vim/vimrc
+yazi
+vim ~/.config/vim/vimrc
+yazi
+cler
+exit
+clear
+cd .config/vim
+clear
+vim
+vim.
+vim .
+vim --version | grep clipboard
+sudo pacman -S gvim
+vim vimrc
+yazi
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \<\n>  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+ls ~/.vim/autoload/plug.vim
+mv ~/.config/vim/vimrc ~/.vimrc
+vim
+vim vimrc
+clear
+yazi
+vim
+ls
+clear
+cd
+yazi
+clear
+yazi
+exit
+yazi
+vim .vimrc
+yazi
+vim .vimrc
+vim .vimrc +'PluginInstall'
+vim .vimrc +'PlugInstall'
+vim .vimrc +'PluginInstall'
+vim .vimrc +'PlugInstall'
+vim .vimrc
+vim .vimrc +'PlugInstall'
+vim .vimrc
+yazi
+vim .vimrc +'PlugInstall'
+yazi
+vim .vimrc
+clear
+vim .vimrc
+vi
+yazi
+clear
+cd dotfiles/
+ls
+clear
+git init
+git clear
+git clean
+ls
+yaz
+yazi
+git init
+cleart
+clear
+cd dotfiles/
+vi .gitignore
+yazi
+clear
+cat packages
+vim packages
+vim packages | grep '^#.*'
+cat packages | grep '^#.*'
+cat packages | grep '^[^#].*'
+vim packages
+nvim packages
+vim packages
+nvim packages
+vim packages
+cleart
+clear
